@@ -1,0 +1,151 @@
+/*!
+Theme Name: Meu Primeiro Investimento
+Theme URI: http://underscores.me/
+Author: Edson Vieira Demetrio
+Author URI: http://edsonvieirademetrio.com.br
+Description: Tema desenvolvido para o projeto Meu Primeiro Investimento
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: meu-primeiro-investimento
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Meu Primeiro Investimento is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+:root{
+	--color-blue: #006088;
+	--color-orange: #E59500;
+	--color-gray: #808080;
+}
+
+.bg-gradient-blue{
+	background-image: linear-gradient(120deg,#00c7ee,#2db0ee) !important;
+}   
+.bg-white{
+	background-color: #fff !important;
+}
+.bg-peach-gradient {
+    background: linear-gradient(40deg,#ffd86f,#fc6262) !important;
+}
+.bg-purple-gradient {
+    background: linear-gradient(40deg,#ff6ec4,#7873f5) !important;
+}
+.text-blue{
+	color: var(--color-blue) !important;
+}
+.text-orange{
+	color: var(--color-orange) !important;
+}
+.text-gray{
+	color: var(--color-gray) !important;
+}
+.bg-color-blue{
+	background-color: var(--color-blue) !important;
+}
+.bg-color-orange{
+	background-color: var(--color-orange) !important;
+}
+.bg-color-gray{
+	background-color: var(--color-gray) !important;
+}
+.btn-primary{
+	background-color: var(--color-blue) !important;
+}
+.btn-warning{
+	background-color: var(--color-orange) !important;
+}
+/* News home */
+.box-news-home{
+	margin-top: -65px;
+    box-shadow: 0 0 20px rgba(62,70,79,.2);
+}
+/* Footer */
+.logo-footer img{
+	width: 105px;
+}
+
+/* Links categorias blog */
+.label-categories-blog > a{
+	font-size: 13px;
+	position: relative !important;
+	padding: 7px 17px;
+	text-align: center;
+	display: inline-block;
+	color:
+	#fff;
+	background-color: #fec606;
+	font-weight: 700;
+	margin-right: 5px;
+	margin-bottom: 8px;
+	border-radius: 25px;
+	opacity: 1;
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+}
+.box-video-about{
+	margin-top: -80px !important;
+}
+
+h3#reply-title, h2.screen-reader-text {
+    text-transform: uppercase;
+    font-weight: bold;
+	color: var(--color-orange);
+	font-size: 15px;
+}
+input#submit {
+    background-color: var(--color-orange);
+	color: #fff;
+	text-transform: uppercase;
+    vertical-align: bottom;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2), 0 2px 10px 0 rgba(0,0,0,.1);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2), 0 2px 10px 0 rgba(0,0,0,.1);
+    font-weight: 500;
+    padding: .625rem 1.5rem .5rem;
+    font-size: .75rem;
+    line-height: 1.5;
+}
+a {
+    color: var(--color-blue) !important;    
+}
+.box-category a{
+	color: var(--color-orange) !important;
+}
+h1.page-title{
+	color: var(--color-orange) !important;
+}
+
+/* Versão Mobile */
+@media (max-width: 768px) {
+	.overflow-x-scroll{
+		overflow-x: scroll;
+	}	
+	.m-flex-nowrap {
+		-ms-flex-wrap: nowrap!important;
+		flex-wrap: nowrap!important;
+	}
+	.m-flex-row {
+		-webkit-box-direction: normal!important;
+	}
+	.m-flex-row {
+		-webkit-box-orient: horizontal!important;
+		-ms-flex-direction: row!important;
+		flex-direction: row!important;
+	}
+	.author-img-home{
+		width: 80%;
+		text-align: left;
+	}
+	input, textarea{
+		width: 90% !important;
+	}
+}
